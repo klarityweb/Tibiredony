@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+
+<!-- OPEN GRAPH (WhatsApp / Facebook / Messenger) -->
+<meta property="og:title" content="Tibiredőny Kft | Redőnyök és Árnyékolástechnika Veszprém">
+<meta property="og:description" content="Prémium redőnyök, szúnyoghálók, pergolák és árnyékolástechnikai rendszerek Veszprémben.">
+<meta property="og:image" content="https://i.postimg.cc/jSJmQv1h/tibiredonylogo-transparent-white.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tibiredony.hu">
+
+<!-- TWITTER / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tibiredőny Kft | Redőnyök és Árnyékolástechnika Veszprém">
+<meta name="twitter:description" content="Prémium redőnyök, szúnyoghálók, pergolák és árnyékolástechnikai rendszerek Veszprémben.">
+<meta name="twitter:image" content="https://i.postimg.cc/jSJmQv1h/tibiredonylogo-transparent-white.png">  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Tibiredőny Kft | Redőnyök és Árnyékolástechnika Veszprém</title>
+
+<meta name="description" content="Prémium redőnyök, szúnyoghálók, pergolák és árnyékolástechnikai rendszerek gyártása és szerelése Veszprémben.">
+
+<meta name="keywords" content="
+redőny Veszprém,
+redőny javítás,
+PVC redőny,
+aluredőny,
+motoros redőny,
+szúnyogháló,
+pliszé szúnyogháló,
+roletta,
+reluxa,
+pergola,
+napellenző,
+Tibiredőny Kft
+">
+
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#b30000">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.hero-highlight-text {
+    font-size: 10rem; /* Più grande del precedente */
+    font-weight: 1000;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 40px;
+    /* Contorno nero per leggibilità */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1), -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 10px;
+}
+
+/* Aggiungi questa riga al tuo CSS */
+.premium-highlight {
+    font-size: 2em; /* 2 volte più grande */
+    color: #ffffff;
+    display: block; /* Va a capo o resta isolata meglio */
+    margin-bottom: 10px;
+}
+
+body{
+font-family:'Roboto',sans-serif;
+background:#000;
+color:#fff;
+overflow-x:hidden; /* CORREZIONE: Impedisce la linea nera a destra */
+width: 100%;
+}
+
+html{
+scroll-behavior:smooth;
+overflow-x:hidden; /* CORREZIONE: Rinforzo anti-overflow */
+}
+
+/* NAVBAR INGRANDITA CON GRADIENTE DA NERO A ROSSO */
+
+.navbar{
+position:sticky;
+top:0;
+z-index:999;
+background: linear-gradient(to right, #000000, #b30000);
+border-bottom:2px solid #1a1a1a;
+padding: 15px 0; /* Ingrandita */
+}
+
+.nav-container{
+max-width:1300px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 20px; /* Ingrandito padding */
+position: relative;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:18px;
+text-decoration: none; /* Rimosso underline dal link */
+}
+
+/* AGGIORNATO LOGO CON IMMAGINE - SCRITTA RIMOSTA */
+.logo-image {
+height: 90px; /* Ingrandito ulteriormente per visibilità */
+width: auto;
+object-fit: contain;
+}
+
+
+.menu-wrapper {
+display: flex;
+flex-direction: column;
+gap: 10px;
+align-items: flex-end;
+}
+
+.nav-menu.sub-menu a {
+font-size: 0.95rem;
+opacity: 0.9;
+}
+
+/* MENU LINKS NELLA NAVBAR */
+.nav-menu {
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+}
+
+.nav-menu a {
+color: #ffffff;
+text-decoration: none;
+font-size: 1.1rem; /* Ingrandito */
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+transition: 0.3s;
+position: relative; /* Necessario per il posizionamento della linea attiva */
+padding-bottom: 4px;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+color: #ff4d4d;
+}
+
+/* Sottolineatura per l'elemento attivo della navbar */
+.nav-menu a.active::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 2px;
+background-color: #ff4d4d;
+}
+
+.nav-right{
+display:flex;
+align-items:center;
+gap:14px;
+}
+
+.social-btn{
+width:48px;
+height:48px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:1.2rem;
+transition:0.3s;
+}
+
+.instagram-btn{
+background:#fff;
+color:#b30000;
+}
+
+/* PULSANTE WHATSAPP VERDE */
+.whatsapp-btn{
+background:#25D366; /* Verde WhatsApp */
+color:#fff;
+}
+
+.social-btn:hover{
+transform:translateY(-3px);
+}
+
+/* HAMBURGER MENU PER MOBILE (CSS PURE) */
+.menu-toggle {
+display: none;
+flex-direction: column;
+gap: 6px;
+cursor: pointer;
+background: none;
+border: none;
+z-index: 1000;
+}
+
+.menu-toggle span {
+display: block;
+width: 30px;
+height: 3px;
+background: #fff;
+border-radius: 3px;
+transition: 0.3s;
+}
+
+#menu-checkbox {
+display: none;
+}
+
+/* HERO - SFONDO CON OMBRA SCURA PER LEGGIBILITÀ */
+
+.hero {
+    min-height: 100vh;           /* Forza l'altezza a coprire almeno tutta la finestra */
+    display: flex;
+    align-items: center;         /* Centra il contenuto verticalmente */
+    justify-content: center;     /* Centra il contenuto orizzontalmente */
+    text-align: center;
+    padding: 20px;               /* Padding flessibile */
+    
+    /* SFONDO */
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), 
+                url('https://i.postimg.cc/PxZZmFBV/a1f03368-b4a1-43d2-999f-19251ffcee98.png'); 
+    
+    background-size: contain;      /* FONDAMENTALE: l'immagine si ridimensiona per coprire tutto il contenitore senza deformarsi */
+    background-position: center center; /* Mantiene l'immagine centrata */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* OPZIONALE: crea l'effetto "parallax" (l'immagine resta ferma mentre scrolli) */
+    width: 100%;
+}
+
+.hero-content{
+max-width:1000px;
+width: 100%; /* CORREZIONE: Garantisce il centraggio */
+margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 4.5rem; /* Puoi portarlo a 5.5rem se vuoi che sia gigante */
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    text-shadow: 3px 3px 20px rgba(0,0,0,0.9); /* Ombra più marcata per staccare dal fondo */
+}
+/* CSS minimo aggiunto per evitare il ritorno a capo della parola su mobile */
+.no-wrap-word {
+display: inline-block;
+white-space: nowrap;
+}
+
+.hero p{
+font-size:1.3rem;
+line-height:1.8;
+color:#fff; /* CAMBIATO IN BIANCO PIENO PER RISALTARE */
+margin-bottom:40px;
+text-shadow: 1px 1px 10px rgba(0,0,0,0.8); /* OMBRA SUL PARAGRAFO */
+}
+
+.cta-btn{
+display:inline-block;
+padding:18px 42px;
+background:#b30000;
+color:#fff;
+text-decoration:none;
+font-weight:700;
+border-radius:8px;
+transition:0.3s;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+.cta-btn:hover{
+background:#8d0000;
+transform:translateY(-4px);
+}
+
+/* TRUST */
+
+.trust-bar{
+background:#b30000;
+padding:22px;
+text-align:center;
+font-size:0.95rem;
+letter-spacing:2px;
+text-transform:uppercase;
+font-weight:700;
+}
+
+/* SECTION */
+
+.section{
+padding:100px 20px;
+}
+
+.container{
+max-width:1300px;
+margin:auto;
+}
+
+.section-title{
+font-size:3rem;
+text-align:center;
+margin-bottom:70px;
+text-transform:uppercase;
+font-weight:900;
+}
+
+/* SFONDO GRADIENTE DA NERO A ROSSO PER LE SEZIONI CENTRALI */
+.gradient-black-red-bg {
+background: linear-gradient(to bottom, #000000, #ff4d4d);
+}
+
+/* HOGYAN DOLGOZUNK - ALLINEAMENTO PERFETTO SENZA ICONE */
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:15px;
+align-items: stretch;
+}
+
+.process-card{
+position:relative;
+height:340px; /* Ridotto leggermente dato che non ci sono le icone */
+border-radius:20px;
+overflow:hidden;
+background-size:cover;
+background-position:center;
+display: flex;
+flex-direction: column;
+}
+
+.process-card::before{
+content:'';
+position:absolute;
+inset:0;
+background:rgba(0,0,0,0.78);
+}
+
+.process-content{
+position:relative;
+z-index:2;
+height:100%;
+width: 100%;
+display:flex;
+flex-direction:column;
+justify-content:flex-start;
+align-items:center;
+padding:40px 15px 30px 15px; /* Bilanciato lo spazio interno */
+text-align:center;
+}
+
+.process-content h3{
+font-size:1.15rem;
+margin-bottom:15px;
+text-transform:uppercase;
+font-weight:700;
+letter-spacing:0.5px;
+min-height:55px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.process-content p{
+color:#bbb;
+line-height:1.5;
+font-size:0.95rem;
+margin-bottom:15px;
+}
+
+.process-highlight{
+font-size:1.2rem;
+font-weight:900;
+color:#ffcc00;
+margin-top:auto; /* Spinge la scritta gialla magneticamente sul fondo */
+text-transform:uppercase;
+letter-spacing:0.5px;
+}
+
+/* PRODUCTS */
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+.service-card{
+position:relative;
+height:500px;
+border-radius:20px;
+overflow:hidden;
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.service-card::before{
+content:'';
+position:absolute;
+inset:0;
+background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.88));
+}
+
+.service-content{
+position:relative;
+z-index:2;
+padding:40px;
+text-align:center;
+}
+
+.service-content h3{
+font-size:2.2rem;
+margin-bottom:20px;
+}
+
+.service-content p{
+line-height:1.8;
+color:#ddd;
+}
+
+/* INFO - GRADIENTE GRIGIO-NERO E TESTI CHIARI */
+
+.info-box{
+margin-top:70px;
+background: linear-gradient(135deg, #2b2b2b 0%, #111111 100%);
+padding:50px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.info-box h3{
+font-size:2rem;
+margin-bottom:30px;
+color:#ffffff;
+}
+
+.info-box p{
+line-height:2;
+color:#dddddd;
+}
+
+/* FEEDBACKS SEZIONE */
+
+.rating-summary{
+background: linear-gradient(135deg, #2b2b2b 0%, #111111 100%);
+padding:30px;
+border-radius:20px;
+text-align:center;
+max-width:400px;
+margin: 0 auto 50px auto;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.rating-score{
+font-size:4rem;
+font-weight:900;
+color:#fff;
+line-height:1;
+}
+
+.rating-stars{
+color:#ffcc00;
+font-size:1.5rem;
+margin:10px 0;
+}
+
+.reviews-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.review-card{
+background: linear-gradient(135deg, #2b2b2b 0%, #111111 100%);
+padding:35px 25px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.1);
+display:flex;
+flex-direction:column;
+justify-content:between;
+}
+
+.review-header{
+display:flex;
+justify-content:space-between;
+align-items:flex-start;
+margin-bottom:15px;
+}
+
+.review-user{
+font-weight:700;
+color:#ffffff;
+font-size:1.1rem;
+}
+
+.review-stars{
+color:#ffcc00;
+font-size:0.9rem;
+margin-top:4px;
+}
+
+.review-text{
+color:#dddddd;
+line-height:1.7;
+font-size:0.95rem;
+font-style:italic;
+}
+
+/* SEPARATORE ROSSO */
+.divider-red {
+max-width: 1300px;
+height: 3px;
+background: #ff4d4d;
+margin: 40px auto 0 auto;
+box-shadow: 0 0 15px rgba(255, 77, 77, 0.6);
+border: none;
+}
+
+/* FORM DI CONTATTO - STRUTTURA PROFESSIONALE CON RIGUARDOSO DISTANZIAMENTO */
+.contact-form-section {
+background: linear-gradient(to bottom, #ff4d4d 0%, #000000 20%, #4a0000 100%);
+padding: 90px 20px;
+}
+
+.form-wrapper {
+max-width: 700px;
+margin: auto;
+background: linear-gradient(135deg, #2b2b2b 0%, #111111 100%);
+padding: 50px;
+border-radius: 20px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-group {
+margin-bottom: 25px; /* Spazio protettivo e bilanciato tra i diversi blocchi di input */
+}
+
+.form-wrapper label {
+display: block;
+margin-bottom: 10px; /* Spostato a 10px per staccare nettamente l'etichetta dal riquadro */
+font-weight: 500;
+color: #fff;
+font-size: 0.95rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 16px;
+background: rgba(0, 0, 0, 0.4);
+border: 1px solid rgba(255, 255, 255, 0.15);
+border-radius: 8px;
+color: #fff;
+font-family: inherit;
+font-size: 1rem;
+transition: 0.3s;
+margin-top: 2px; /* Assicura un corretto e pulito distacco visivo dal testo sovrastante */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+outline: none;
+border-color: #ff4d4d;
+background: rgba(0, 0, 0, 0.6);
+box-shadow: 0 0 10px rgba(255, 77, 77, 0.2);
+}
+
+.form-submit-btn {
+width: 100%;
+padding: 18px;
+background: #b30000;
+color: #fff;
+border: none;
+border-radius: 8px;
+font-size: 1.1rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1px;
+cursor: pointer;
+transition: 0.3s;
+margin-top: 10px; /* Separazione ottimale dall'area di testo del messaggio */
+}
+
+.form-submit-btn:hover {
+background: #8d0000;
+transform: translateY(-3px);
+box-shadow: 0 5px 15px rgba(141, 0, 0, 0.4);
+}
+
+/* CONTACT - INIZIA CON ROSSO E FINISCE CON NERO */
+.contact-section{
+background: linear-gradient(to bottom, #4a0000 0%, #000000 50%);
+padding-top: 20px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+/* CONTACT CARD - GRADIENTE GRIGIO-NERO E TESTI CHIARI */
+.contact-card{
+background: linear-gradient(135deg, #2b2b2b 0%, #111111 100%);
+padding:40px 25px;
+border-radius:20px;
+text-align:center;
+border:1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-card i{
+font-size:2.4rem;
+margin-bottom:20px;
+color:#ff4d4d;
+}
+
+.contact-card h4{
+margin-bottom:15px;
+color:#ffffff;
+}
+
+.contact-card p,
+.contact-card a{
+color:#dddddd;
+line-height:1.8;
+text-decoration:none;
+}
+
+.map-wrapper{
+margin-top:60px;
+height:420px;
+border-radius:20px;
+overflow:hidden;
+border:1px solid #222;
+filter:grayscale(0.2);
+}
+
+/* FOOTER */
+
+.footer{
+background:#000;
+padding:70px 20px 30px;
+text-align:center;
+border-top:1px solid #111;
+}
+
+.footer h3{
+margin-bottom:20px;
+}
+
+.footer p{
+color:#999;
+line-height:1.8;
+}
+
+.footer-bottom{
+margin-top:40px;
+padding-top:20px;
+border-top:1px solid #111;
+color:#666;
+}
+
+/* RESPONSIVE & MOBILE DESIGN DETTAGLIATO */
+
+@media(max-width:1100px){
+.nav-menu {
+gap: 15px;
+}
+.nav-menu a {
+font-size: 0.95rem;
+}
+.process-grid{
+grid-template-columns:repeat(3,1fr);
+}
+}
+
+@media(max-width:900px){
+
+  /* Elrejti a nevet mobilon, hogy tiszta maradjon az elrendezés */
+  .logo-name {
+    display: none;
+  }
+
+  /* Forza il rimpicciolimento drastico della parola Árnyékolástechnika nell'header solo su mobile */
+  .hero h1 .no-wrap-word {
+    font-size: 1.3rem !important; 
+    display: inline-block;
+    max-width: 100%;
+    word-break: break-all;
+  }
+
+.hero{
+padding: 80px 20px; /* CORREZIONE: Ridotto padding per mobile */
+}
+
+.hero h1{
+font-size:2.2rem; /* CORREZIONE: Ridotto per centraggio perfetto */
+}
+
+.hero p{
+font-size:1rem;
+}
+
+.section-title{
+font-size:2rem;
+}
+
+.process-grid,
+.services-grid,
+.reviews-grid,
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+.process-card {
+height: auto;
+}
+
+/* ATTIVAZIONE MENU A TENDINA MOBILE */
+.menu-toggle {
+display: flex;
+order: 2;
+}
+
+.nav-right {
+order: 3;
+gap: 10px; /* Ridotto gap su mobile */
+}
+
+.logo {
+order: 1;
+}
+
+.logo-image {
+height: 60px; /* Ridotto leggermente su mobile */
+}
+
+/* MENU MOBILE IDENTICO A CARPORT */
+.menu-wrapper {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background: linear-gradient(to bottom, #000000, #220000);
+flex-direction: column;
+align-items: center;
+padding: 30px 20px;
+gap: 20px;
+border-bottom: 2px solid #b30000;
+box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+z-index: 999;
+}
+
+/* APERTURA MENU */
+#menu-checkbox:checked ~ .menu-wrapper {
+display: flex;
+}
+
+/* LISTE INTERNE */
+.nav-menu {
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+text-align: center;
+list-style: none;
+align-items: center;
+}
+
+.nav-menu a {
+font-size: 1.15rem;
+display: block;
+padding: 4px 0;
+}
+
+.nav-menu.sub-menu a {
+font-size: 1.05rem;
+opacity: 0.92;
+}
+
+#menu-checkbox:checked ~ .menu-toggle span:nth-child(1) {
+transform: translateY(9px) rotate(45deg);
+}
+
+#menu-checkbox:checked ~ .menu-toggle span:nth-child(2) {
+opacity: 0;
+}
+
+#menu-checkbox:checked ~ .menu-toggle span:nth-child(3) {
+transform: translateY(-9px) rotate(-45deg);
+}
+
+.service-card{
+height:420px;
+}
+
+.info-box,
+.form-wrapper{
+padding:35px 25px;
+}
+
+.social-btn {
+width: 40px; /* Ridotti bottoni social su mobile */
+height: 40px;
+font-size: 1.1rem;
+}
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<a href="index.html" class="logo">
+<img src="https://i.postimg.cc/jSJmQv1h/tibiredonylogo-transparent-white.png" alt="Tibiredőny Kft Logo" class="logo-image">
+</a>
+
+<input type="checkbox" id="menu-checkbox">
+
+<label for="menu-checkbox" class="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</label>
+
+<div class="menu-wrapper">
+    <ul class="nav-menu">
+        <li><a href="index.html" class="active">Kezdőlap</a></li>
+        <li><a href="szolgaltatasaim.html">Szolgáltatásaim</a></li>
+        <li><a href="rolam.html">Rólam</a></li>
+        <li><a href="galeria.html">Galéria</a></li>
+        <li><a href="videok.html">Videók</a></li>
+        <li><a href="kapcsolat.html">Kapcsolat</a></li>
+    </ul>
+    <ul class="nav-menu sub-menu">
+        <li><a href="redonyok.html">Redőnyök</a></li>
+        <li><a href="szunyoghalok.html">Szúnyoghálók</a></li>
+        <li><a href="pergola.html">Pergola</a></li>
+        <li><a href="carport.html">Carport</a></li>
+        <li><a href="arnyekolok.html">Árnyékolók</a></li>
+        <li><a href="napellenzok.html">Napellenzők</a></li>
+    </ul>
+</div>
+
+<div class="nav-right">
+
+<a href="https://www.instagram.com/tibiredonykft"
+target="_blank"
+class="social-btn instagram-btn">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+<a href="https://wa.me/36209870127?text=Üdvözlöm%20a%20Tibiredőny%20Kft-t!%20Érdeklődni%20szeretnék%20a%20termékekről%20és%20árajánlatot%20kérnék."
+target="_blank"
+class="social-btn whatsapp-btn">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>
+            <span class="premium-highlight">Prémium</span> 
+            Redőnyök és <span class="no-wrap-word">Árnyékolástechnika</span>
+        </h1>
+
+<p class="hero-highlight-text">
+    Saját készítésű redőnyök, szúnyoghálók, pergolák és modern árnyékolási rendszerek Veszprémben és környékén. 
+    Gyors kivitelezés, <strong> Prémium </strong> minőség és professzionális szerelés.
+</p>
+
+<div style="display:flex; flex-direction:column; gap:15px; align-items:center;">
+
+    <a href="#ajanlatkeres" class="cta-btn">
+        <i class="fas fa-envelope"></i> Ingyenes Ajánlatkérés
+    </a>
+
+    <a href="https://wa.me/36209870127?text=Üdvözlöm!%20Ajánlatot%20szeretnék%20kérni."
+       target="_blank"
+       class="cta-btn"
+       style="background:#25D366;">
+        <i class="fab fa-whatsapp"></i> Ajánlatkérés WhatsAppon
+    </a>
+
+</div>
+
+
+</div>
+
+</header>
+
+<div class="trust-bar">
+REDŐNYÖK • SZÚNYOGHÁLÓK • PERGOLÁK • ÁRNYÉKOLÁSTECHNIKA
+</div>
+
+<div class="gradient-black-red-bg">
+
+<section class="section" id="services">
+
+<div class="container">
+
+<h2 class="section-title">
+Termékeink
+</h2>
+
+<div class="services-grid">
+
+<div class="service-card"
+style="background-image:url('https://tibiredonywebshop.hu/IMG//CATEGORIES/Shutter_3.png')">
+
+<div class="service-content">
+
+<h3>Redőnyök</h3>
+
+<p>
+PVC és alumínium redőnyök,
+motoros rendszerek és <strong> Prémium </strong> árnyékolástechnika.
+</p>
+
+<p style="margin-top:15px;">
+Saját készítésű,
+<strong> Prémium </strong> alapanyagok
+és gyors kivitelezés.
+</p>
+
+<a href="redonyok.html"
+target="_blank"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+<div class="service-card"
+style="background-image:url('https://tibiredonywebshop.hu/IMG//CATEGORIES/c_67.png')">
+
+<div class="service-content">
+
+<h3>Szúnyoghálók</h3>
+
+<p>
+<strong> Prémium </strong>Fix, mobil és pliszé szúnyoghálók
+egyedi méretben.
+</p>
+
+<p style="margin-top:15px;">
+Rövid határidő,
+modern rendszerek
+és professzionális szerelés.
+</p>
+
+<a href="szunyoghalok.html"
+target="_blank"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+<div class="service-card"
+style="background-image:url('https://tibiredonywebshop.hu/IMG//CATEGORIES/c_43.png')">
+
+<div class="service-content">
+
+<h3>Belső Árnyékolók</h3>
+
+<p>
+Roletta, reluxa, sávroló és japánfal rendszerek modern otthonokhoz.
+</p>
+
+<p style="margin-top:15px;">
+Elegáns design,
+<strong> Prémium </strong> textilek
+és egyedi gyártás.
+</p>
+
+<a href="arnyekolok.html"
+target="_blank"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+<div class="service-card"
+style="background-image:url('https://807a73663b.clvaw-cdnwnd.com/a7320bed1fdd0ac3e78809bf8b005835/200000299-d7300d7301/pergola_7.webp?ph=807a73663b')">
+
+<div class="service-content">
+
+<h3>Pergolák</h3>
+
+<p>
+Modern és exkluzív alumínium pergolák teraszokhoz és kertekhez.
+</p>
+
+<p style="margin-top:15px;">
+Időtálló kivitelezés,
+<strong> Prémium </strong> alapanyagok
+és professzionális beépítés.
+</p>
+
+<a href="pergola.html"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+<div class="service-card"
+style="background-image:url('https://807a73663b.clvaw-cdnwnd.com/a7320bed1fdd0ac3e78809bf8b005835/200000244-946a3946a5/450/red%C5%91nykapu11.webp?ph=807a73663b')">
+
+<div class="service-content">
+
+<h3>Carport</h3>
+
+<p>
+<strong> Prémium </strong> alumínium gépkocsibeállók, melyek elegáns és robusztus védelmet nyújtanak autójának.
+</p>
+
+<p style="margin-top:15px;">
+Időtálló kivitel,
+modern dizájn
+és professzionális szerelés.
+</p>
+
+<a href="carport.html"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+<div class="service-card"
+style="background-image:url('https://807a73663b.clvaw-cdnwnd.com/a7320bed1fdd0ac3e78809bf8b005835/200000266-08f6208f65/DSCF0344-6.webp?ph=807a73663b')">
+
+<div class="service-content">
+
+<h3>Napernyők és Napellenzők</h3>
+
+<p>
+Kiváló minőségű napellenzők és napernyők teraszok, erkélyek és kertek professzionális árnyékolására.
+</p>
+
+<p style="margin-top:15px;">
+2026-ös Sattler minták,
+tokozott változatok
+és intelligens vezérlés.
+</p>
+
+<a href="napellenzok.html"
+class="cta-btn"
+style="margin-top:20px;">
+
+Megtekintés
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="margin-top: 100px;">
+<h2 class="section-title">
+Hogyan Dolgozunk
+</h2>
+
+<div class="process-grid">
+
+<div class="process-card">
+<div class="process-content">
+<h3>Gurtni csere</h3>
+<p>Elszakadt a gurtnija, zsinórja? Nem működik a zsinórcsévélő?</p>
+<div class="process-highlight">Kicseréljük!</div>
+</div>
+</div>
+
+<div class="process-card">
+<div class="process-content">
+<h3>Redőny javítás, szerelés, forgalmazás</h3>
+<p>Leszakadt? Elakadt? Megverte a jég?</p>
+<div class="process-highlight">Megjavítjuk!</div>
+</div>
+</div>
+
+<div class="process-card">
+<div class="process-content">
+<h3>Napellenző javítás, szerelés, forgalmazás</h3>
+<p>Kiszakadt a ponyva? Nem működik a motor?</p>
+<div class="process-highlight">Megoldjuk!</div>
+</div>
+</div>
+
+<div class="process-card">
+<div class="process-content">
+<h3>Reluxa javítás, szerelés, forgalmazás</h3>
+<p>Összegubancolódott a zsinór?</p>
+<div class="process-highlight">Kibogozzuk!</div>
+</div>
+</div>
+
+<div class="process-card">
+<div class="process-content">
+<h3>Szúnyogháló javítás, szerelés, forgalmazás</h3>
+<p>Kiszakadt?</p>
+<div class="process-highlight">Újat teszünk helyette!</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="info-box">
+
+<h3>
+Miért választják a Tibiredőny Kft-t?
+</h3>
+
+<p>
+
+✔ Saját készítésű prémium termékek.<br><br>
+
+✔ Redőnyjavítás akár 2 munkanapon belül.<br><br>
+
+✔ Modern motoros rendszerek.<br><br>
+
+✔ Professzionális szerelés Veszprémben és környékén.<br><br>
+
+✔ Kiemelkedő minőségű alapanyagok.<br><br>
+
+✔ Gyors kivitelezési határidők.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<div class="container">
+
+<h2 class="section-title">
+Ügyfeleink Véleménye
+</h2>
+
+<div class="rating-summary">
+
+<div class="rating-score">4.8</div>
+
+<div class="rating-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-alt"></i>
+</div>
+
+<p style="color:#aaa; font-size:0.95rem;">
+136 Google értékelés alapján
+</p>
+
+</div>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">Szalai Kálmán</span>
+
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Nem csalódás az, amit és ahogyan hirdetnek a Kezdőlapjukon, valóban magas színvonalon, olcsón és gyorsan dolgoznak, ami sajnos manapság ritkaság!"
+</p>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">Péter Papakozmász</span>
+
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Kicserélték a redőnygurtnit. Kedves, segítőkész szerelők, gyors és precíz munka, korrekt ár! Mindenkinek ajánlom!"
+</p>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">Timár Zoltán</span>
+
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Gyors, pontos, precíz, minőségi munka. Szállítás és felszerelés a megbeszélt áron és időben. Jó lenne, ha minden szaki ilyen lenne... :-)"
+</p>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">Veronika Anna Kercsmár</span>
+
+<div class="review-stars" style="white-space: nowrap;">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Korrekt áron, szép munkát végeztek, nagyon meg vagyunk elégedve az ajtó-szúnyoghálókkal. Ajánlom őket mindenkinek."
+</p>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">S Bernadett</span>
+
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Elszakadt a gurtni, ami húzza a redőnyt. 8:00-kor telefonáltam, 11:20-ra kész is volt. Gyorsak, jól dolgoznak, precízek. Csak ajánlani tudom mindenkinek!!!"
+</p>
+
+</div>
+
+<div class="review-card">
+
+<div class="review-header">
+
+<span class="review-user">Zsolt Iványi</span>
+
+<div class="review-stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+<p class="review-text">
+"Ahol a szakértelem, minőség, megbízhatóság, gyors határidő és a megfelelő ár találkozik. Csak ajánlani tudom! Hajrá Tibi!!!"
+</p>
+
+</div>
+
+</div>
+
+<hr class="divider-red">
+
+</div>
+
+</section>
+
+</div>
+<section class="contact-form-section" id="contact-form">
+
+<div class="container">
+
+<h2 class="section-title">Írjon Nekünk</h2>
+
+<div id="ajanlatkeres" class="form-wrapper">
+
+<form action="https://api.web3forms.com/submit" method="POST">
+
+<input type="hidden" name="access_key" value="dd81e829-a942-4265-a776-367b8d9317c7">
+
+<input type="hidden" name="subject" value="Új üzenet a Tibiredőny weboldalról">
+
+<input type="hidden" name="from_name" value="Tibiredőny Weboldal">
+
+<input type="hidden" name="replyto" value="%email%">
+
+<div class="form-group">
+<label for="name">Név</label>
+<input type="text" id="name" name="name" required placeholder="Az Ön neve...">
+</div>
+
+<div class="form-group">
+<label for="email">E-mail cím</label>
+<input type="email" id="email" name="email" required placeholder="Az Ön e-mail címe...">
+</div>
+
+<div class="form-group">
+<label for="phone">Telefonszám</label>
+<input type="tel" id="phone" name="phone" placeholder="Az Ön telefonszáma...">
+</div>
+
+<div class="form-group">
+<label for="message">Üzenet</label>
+<textarea id="message" name="message" rows="5" required placeholder="Írja le, miben segíthetünk..."></textarea>
+</div>
+
+<button type="submit" class="form-submit-btn">Üzenet Küldése</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section contact-section" id="videos">
+
+<div class="container">
+
+<h2 class="section-title">
+Kapcsolat
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<i class="fas fa-location-dot"></i>
+
+<h4>Cím</h4>
+
+<p>
+Veszprém<br>
+Tószeg u. 30<br>
+8411 Magyarország
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fab fa-whatsapp"></i>
+
+<h4>Telefon</h4>
+
+<a href="tel:+36209870127">
++36 20 987 0127
+</a>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fab fa-instagram"></i>
+
+<h4>Instagram</h4>
+
+<a href="https://www.instagram.com/tibiredonykft" target="_blank">
+@tibiredonykft
+</a>
+
+</div>
+
+<div class="contact-card">
+
+<i class="far fa-clock"></i>
+
+<h4>Nyitvatartás</h4>
+
+<p>
+Hétfő – Péntek<br>
+08:00 – 16:00
+</p>
+
+</div>
+
+</div>
+
+<div class="map-wrapper">
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2729.8118047040434!2d17.925565176846173!3d47.10260492265005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769956488d752f9%3A0x6e2c358f278d65c0!2zVmVzenByw6ltLCBUw7NzemVnIHUuIDMwLCA4NDEx!5e0!3m2!1shu!2shu!4v1715800000000!5m2!1shu!2shu"
+width="100%"
+height="100%"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<footer style="background: #000; border-top: 2px solid #b30000; padding: 60px 20px 20px 20px; text-align: center;">
+        <div style="max-width: 1300px; margin: auto;">
+            <img src="https://i.postimg.cc/jSJmQv1h/tibiredonylogo-transparent-white.png" alt="Tibiredőny Kft" style="height: 100px; margin-bottom: 20px;">
+            <h3 style="color: #fff; font-size: 1.8rem; text-transform: uppercase; margin-bottom: 15px; font-weight: 900;">Tibiredőny Kft</h3>
+            <p style="color: #aaaaaa; max-width: 600px; margin: 0 auto 30px auto; line-height: 1.6;">Premium minőségű redőnyök, szúnyoghálók és árnyékolástechnikai rendszerek összeszerelése, beépítése és javítása Veszprém megyében.</p>
+            <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; color: #666666; font-size: 0.9rem;">
+                © 2026 Tibiredőny Kft – Minden jog fenntartva
+            </div>
+        </div>
+    </footer>
+    
+<script>
+const form = document.querySelector("form");
+
+form.addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: "POST",
+        body: formData
+    });
+
+    if (response.ok) {
+        alert("Köszönjük! Üzenetét sikeresen elküldtük.");
+        form.reset();
+    } else {
+        alert("Hiba történt. Kérjük próbálja újra.");
+    }
+});
+</script>
+</body>
+</html>
