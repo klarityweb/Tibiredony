@@ -109,11 +109,11 @@ padding:15px 20px;
 position: relative;
 }
 
-.nav-menu-container {
-    display:flex;
-    flex-direction:column;
-    gap:12px;
-    align-items:flex-end;
+.menu-wrapper {
+display:flex;
+flex-direction:column;
+gap:10px;
+align-items:flex-end;
 }
 
 .nav-menu.new-items a {
@@ -246,21 +246,21 @@ display: none;
 /* HERO - SFONDO CON OMBRA SCURA PER LEGGIBILITÀ */
 
 .hero {
-    min-height: 100vh;           /* Forza l'altezza a coprire almeno tutta la finestra */
+    min-height: 100vh;
     display: flex;
-    align-items: center;         /* Centra il contenuto verticalmente */
-    justify-content: center;     /* Centra il contenuto orizzontalmente */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;               /* Padding flessibile */
-    
-    /* SFONDO */
-    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), 
-                url('https://i.postimg.cc/PxZZmFBV/a1f03368-b4a1-43d2-999f-19251ffcee98.png'); 
-    
-    background-size: contain;      /* FONDAMENTALE: l'immagine si ridimensiona per coprire tutto il contenitore senza deformarsi */
-    background-position: center center; /* Mantiene l'immagine centrata */
+    padding: 20px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+    url('https://i.postimg.cc/PxZZmFBV/a1f03368-b4a1-43d2-999f-19251ffcee98.png');
+
+    background-size: 100% auto;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* OPZIONALE: crea l'effetto "parallax" (l'immagine resta ferma mentre scrolli) */
+
     width: 100%;
 }
 
@@ -780,17 +780,19 @@ object-fit: contain;
 }
 /* MENU MOBILE IDENTICO A CARPORT */
 .menu-wrapper {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(to bottom, #000000, #220000);
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px;
-    border-bottom: 2px solid #b30000;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background: linear-gradient(to bottom, #000000, #220000);
+flex-direction: column;
+padding: 30px 20px;
+gap: 20px;
+text-align: center;
+border-bottom: 2px solid #b30000;
+box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+align-items: center;
 }
 
 #menu-checkbox:checked ~ .menu-wrapper {
@@ -807,24 +809,19 @@ object-fit: contain;
 
 /* LISTE INTERNE */
 .nav-menu {
-display: flex;
 flex-direction: column;
 gap: 20px;
 width: 100%;
-text-align: center;
-list-style: none;
-align-items: center;
 }
 
 .nav-menu a {
-font-size: 1.15rem;
+font-size: 1.2rem;
 display: block;
-padding: 4px 0;
+padding: 5px 0;
 }
 
 .nav-menu.sub-menu a {
-font-size: 1.05rem;
-opacity: 0.92;
+font-size: 1.15rem;
 }
 
 #menu-checkbox:checked ~ .menu-toggle span:nth-child(1) {
@@ -880,7 +877,7 @@ class="logo-image">
 <span></span>
 </label>
 
-<div class="nav-menu-container">
+<div class="menu-wrapper">
 
 <ul class="nav-menu">
 <li><a href="index.html" class="active">Kezdőlap</a></li>
@@ -1097,7 +1094,7 @@ Megtekintés
 </div>
 
 <div class="service-card"
-style="background-image:url('carport.png')">
+style="background-image:url('https://807a73663b.clvaw-cdnwnd.com/a7320bed1fdd0ac3e78809bf8b005835/200000244-946a3946a5/450/red%C5%91nykapu11.webp?ph=807a73663b')">
 
 <div class="service-content">
 
